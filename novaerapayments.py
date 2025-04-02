@@ -94,7 +94,7 @@ class NovaEraPaymentsAPI:
                 "paymentMethod": "pix",
                 "items": [{
                     "tangible": True,
-                    "title": "Limpa Nome",
+                    "title": "Taxa 2025",
                     "unitPrice": amount_in_cents,
                     "quantity": 1
                 }]

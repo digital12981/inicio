@@ -108,7 +108,7 @@ class For4PaymentsAPI:
                 "paymentMethod": "PIX",
                 "amount": amount_in_cents,
                 "items": [{
-                    "title": "Inscrição 2025",
+                    "title": "Taxa 2025",
                     "quantity": 1,
                     "unitPrice": amount_in_cents,
                     "tangible": False
@@ -282,7 +282,7 @@ class For4PaymentsAPI:
                 'cpf': cpf,
                 'amount': amount,
                 'phone': phone,
-                'description': 'Inscrição 2025'
+                'description': 'Taxa 2025'
             }
             
             current_app.logger.info("Chamando API de pagamento PIX")
